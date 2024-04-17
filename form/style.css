@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.head{
+    width: 90%;
+    height: 150px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 20px;    
+    justify-content: space-between;
+}
+.head .logo{
+    width: 100px;
+}
+.heading{
+    flex-direction: column;
+}
+.heading h3{
+    background-color: black;
+    color: white;
+    width: 80%;
+    font-size: 18px;
+}
+.heading h2{
+    font-size: 20px;
+}
+
+.img{
+    width: 120px;
+    height: 130px;
+    border: 1px solid black;
+    margin-right: 10px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.img p{
+    width: 80px;
+    font-weight: bold;
+}
+/* main section start */
+.main{
+    width: 90%;
+    height: 100%;
+    border: 3px solid black;
+}
+.form-group label{
+    /* justify-content: space-evenly; */
+    font-weight: bold;
+    gap: 0px;
+}
+.form-group  input[type ="text"]{
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid black ;
+    font-size: 16px;
+}
+
+.italics{
+    margin-left: 80px;
+    font-size: small;
+}
+#department{
+    width: 74%;
+    border-bottom: 2px solid black;
+}
+.check-points{
+    margin-left: 20px;
+    gap: 15px;
+
+}
+.check-points label{
+    font-weight: 100;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    font-size: 14px;
+}
+.check-points input{
+    border: 5000;
+}
+#nif{
+    border-bottom: 2px solid black;
+    width: 73%;
+
+}
+.nics{
+    margin-left: 10px;
+}
+.slashe{
+    width: 30px;
+    border: 2px solid black;
+    margin: -2px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.nic{
+    width: 30px;
+    margin: -4px;
+    border: 2px solid;
+}
+.date-for-dob p{
+    font-weight: bold;
+   display: flex;
+   font-size: 15px;
+   justify-content: end;
+   margin-right: 40px;
+}
+.dob label{
+    margin-left: 20px;
+    margin-right: 4px;
+}
+.dob-in{
+    width: 30px;
+    margin: -4px;
+    border: none;
+    border-bottom: 2px solid;
+}
+.dob span{
+    font-weight: bold;
+    font-size: 25px;
+}
+#email{
+    border-bottom: 2px solid black;
+    width: 45%;
+}
+.ids h4{
+    margin-left: 50px;
+}
+
+.gndr{
+    font-weight: 100;
+    font-size: small;
+    text-decoration: underline;
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+}
+.ids{
+    margin-top: 15px;
+}
+.postal{
+    width: 50%;
+}
+#p-address{
+    border-bottom: 2px solid black;
+    margin-left: -70px;
+    width: 55%;
+}
+.second-in{
+    border-bottom: 2px solid black;
+}
+.p-2nd{
+    margin-top: 15px;
+    border: none;
+    margin-left: 10%;
+    border-bottom: 2px solid black;
+    width: 60%;
+}.city{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.tel{
+    margin-left: 10px;
+}
+.phone{
+    border: none;
+    width: 19%;
+    border-bottom: 1px solid black;
+}
+.table-section{
+    gap: 10px;
+    margin-right: 120px;
+
+}
+table{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+table tr, td, th{
+    width: 130px;
+    height: 30px;
+    /* margin: -23px; */
+    border: 1px solid black;
+}
+.table-2 {
+    width: 170px;
+    height: 30px;
+    /* margin: -23px; */
+    border: 1px solid black;
+}
+.sign{
+    width: 100%;
+    justify-content: space-around;
+    height: 50px;
+}
+.sign h4 input{
+    border: none;
+    border-bottom: 1px solid black ;
+}
